@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reza Baehaqiii — Builder Who Ships With AI Agents</title>
+<meta name="description" content="Portfolio of Achmad Reza Baehaqiii, a builder from Bogor, Indonesia. Tiny chess engine, browser FPS, payment links, on chain radar, and AI tooling, all shipped fast with a team of AI agents.">
+<meta name="theme-color" content="#0b0f14">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%230b0f14'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%235eead4'%3ER%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <nav class="nav" aria-label="Main navigation">
+    <a class="brand" href="#top" aria-label="Reza Baehaqiii, back to top">reza<span class="brand-dot">.</span>builds</a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <section class="hero" id="top" aria-labelledby="hero-title">
+    <div class="hero-inner">
+      <div class="hero-copy">
+        <p class="eyebrow">Bogor, Indonesia · Open to work</p>
+        <h1 id="hero-title">Hi, I am Reza.<br>I ship with AI agents.</h1>
+        <p class="lede">I am a builder from Bogor who turns ideas into working software fast. My crew is a team of AI agents, my boss is a deadline, and my rule is simple: if it does not run, it does not count. This site is my proof of work.</p>
+        <p class="hero-cta">
+          <a class="btn btn-primary" href="#projects">See my projects</a>
+          <a class="btn btn-ghost" href="#contact">Get in touch</a>
+        </p>
+        <ul class="hero-stats" aria-label="Quick facts">
+          <li><strong>7</strong><span>projects shipped</span></li>
+          <li><strong>4 KB</strong><span>smallest engine</span></li>
+          <li><strong>~910</strong><span>chess Elo</span></li>
+        </ul>
+      </div>
+
+      <div class="hero-board" aria-labelledby="board-title">
+        <h2 id="board-title">Play a move</h2>
+        <p>This board is a nod to my tiny chess engine. Tap a piece, then tap a highlighted square to move it.</p>
+        <div class="board-wrap">
+          <div id="chessboard" class="board" role="grid" aria-label="Mini chess board"></div>
+        </div>
+        <p class="board-status" id="board-status" role="status" aria-live="polite">White to move.</p>
+        <p class="board-actions">
+          <button type="button" class="btn btn-small" id="board-reset">Reset board</button>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="section" id="about" aria-labelledby="about-title">
+    <div class="wrap reveal">
+      <h2 id="about-title">About</h2>
+      <p>I am Achmad Reza Baehaqiii, from Bogor Regency in West Java, Indonesia. I graduated from a vocational high school in office administration, then taught myself to build software. Today my main interests are AI training and data annotation, and I spend most of my time shipping real projects with a team of AI agents that I direct.</p>
+      <p>I work in short, intense sprints. I set a clear goal, break it into small steps, and keep pushing until the thing runs in front of real users. I do not collect half finished demos. Every project on this page was built in November 2026, and every one of them actually works.</p>
+      <p class="about-note"><em>“Ga kerja gua pecut”</em> is my team motto. It means: if the work is not moving, I crack the whip, even on myself.</p>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+    <div class="wrap">
+      <h2 id="projects-title" class="reveal">Projects</h2>
+      <p class="section-intro reveal">Seven things I built and shipped. Each one runs, each one taught me something, and each one is still standing.</p>
+
+      <div class="cards">
+        <article class="card reveal" id="project-chess">
+          <p class="card-kicker">Featured · AI</p>
+          <h3>Tiny Chess Engine</h3>
+          <p>A full chess engine in Python squeezed into 4,096 bytes, no libraries at all. Deterministic search, clean evaluation, and about 910 Elo against sunfish in practice games.</p>
+          <ul class="tags" aria-label="Technologies"><li>Python</li><li>Chess</li><li>Algorithms</li></ul>
+          <p class="card-meta">Status: in active tuning</p>
+          <p><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">Code on GitHub <span aria-hidden="true">↗</span></a></p>
+        </article>
+
+        <article class="card reveal" id="project-emberline">
+          <p class="card-kicker">Game · 3D</p>
+          <h3>EMBERLINE</h3>
+          <p>A browser first person shooter built with Three.js. Five vs five matches, AI bots, smoke, a minimap, and a round economy, all running in the browser with no install.</p>
+          <ul class="tags" aria-label="Technologies"><li>Three.js</li><li>JavaScript</li><li>WebGL</li></ul>
+          <p class="card-meta">Status: playable build</p>
+          <p><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">Code on GitHub <span aria-hidden="true">↗</span></a></p>
+        </article>
+
+        <article class="card reveal" id="project-blazepay">
+          <p class="card-kicker">Payments · Crypto</p>
+          <h3>BlazePay</h3>
+          <p>Send Bitcoin Cash with a link. Create a payment link and QR code, and the receiver claims it through a wallet. Built for the BCH Blaze 2026 hackathon, on testnet and mainnet.</p>
+          <ul class="tags" aria-label="Technologies"><li>Bitcoin Cash</li><li>JavaScript</li><li>QR</li></ul>
+          <p class="card-meta">Status: hackathon entry</p>
+          <p><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">Code on GitHub <span aria-hidden="true">↗</span></a></p>
+        </article>
+
+        <article class="card reveal" id="project-radar">
+          <p class="card-kicker">Data · On chain</p>
+          <h3>Token Radar</h3>
+          <p>A radar for on chain tokens with a 198 row board and a 40 token watchlist. It tracks new launches and market moves so nothing interesting slips past quietly.</p>
+          <ul class="tags" aria-label="Technologies"><li>JavaScript</li><li>APIs</li><li>Data viz</li></ul>
+          <p class="card-meta">Status: live board</p>
+          <p><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">Code on GitHub <span aria-hidden="true">↗</span></a></p>
+        </article>
+
+        <article class="card reveal" id="project-aggregator">
+          <p class="card-kicker">AI · Tooling</p>
+          <h3>Free Model Aggregator</h3>
+          <p>A router for free AI models with automatic failover. When one model goes down, the next one picks up the work. Scored 99 out of 99 out of 99 in its bounty evaluation.</p>
+          <ul class="tags" aria-label="Technologies"><li>Python</li><li>AI APIs</li><li>Failover</li></ul>
+          <p class="card-meta">Status: submitted, scored 99/99/99</p>
+          <p><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">Code on GitHub <span aria-hidden="true">↗</span></a></p>
+        </article>
+
+        <article class="card reveal" id="project-gitclone">
+          <p class="card-kicker">Systems · Tooling</p>
+          <h3>GitHub Clone</h3>
+          <p>A from scratch clone of the core of Git: init, commit, branch, and merge. It passed conformance 120 out of 120. I built it to learn how version control really works under the hood.</p>
+          <ul class="tags" aria-label="Technologies"><li>Python</li><li>Git internals</li><li>CLI</li></ul>
+          <p class="card-meta">Status: submitted, conformance 120/120</p>
+          <p><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">Code on GitHub <span aria-hidden="true">↗</span></a></p>
+        </article>
+
+        <article class="card reveal" id="project-dipcatcher">
+          <p class="card-kicker">Video · x402</p>
+          <h3>DipCatcher</h3>
+          <p>A 76 second video about x402 payments, with coded 3D animation and captions baked into the frame. Made for the Superteam x402 bounty, cut for X and YouTube Shorts.</p>
+          <ul class="tags" aria-label="Technologies"><li>Video</li><li>3D animation</li><li>Voiceover</li></ul>
+          <p class="card-meta">Status: submitted</p>
+          <p><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">Code on GitHub <span aria-hidden="true">↗</span></a></p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="section" id="skills" aria-labelledby="skills-title">
+    <div class="wrap reveal">
+      <h2 id="skills-title">Skills</h2>
+      <div class="skills-grid">
+        <div>
+          <h3>Build</h3>
+          <ul>
+            <li>Python</li>
+            <li>JavaScript and Three.js</li>
+            <li>HTML and CSS</li>
+            <li>Git from the inside out</li>
+          </ul>
+        </div>
+        <div>
+          <h3>AI work</h3>
+          <ul>
+            <li>Data annotation and labeling</li>
+            <li>AI training data review</li>
+            <li>Prompting and agent workflows</li>
+            <li>Model evaluation</li>
+          </ul>
+        </div>
+        <div>
+          <h3>How I work</h3>
+          <ul>
+            <li>Fast sprints with clear goals</li>
+            <li>Directing a team of AI agents</li>
+            <li>Testing against real users</li>
+            <li>Shipping, then improving</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="section section-alt" id="contact" aria-labelledby="contact-title">
+    <div class="wrap reveal">
+      <h2 id="contact-title">Contact</h2>
+      <p>Want to work together, or just talk about a project? My inbox is open.</p>
+      <ul class="contact-list">
+        <li><a href="mailto:erjeganteng3@gmail.com">erjeganteng3@gmail.com</a></li>
+        <li><a href="https://github.com/slowwwkiss" target="_blank" rel="noopener">GitHub: @slowwwkiss</a></li>
+        <li><a href="https://www.linkedin.com/in/reza-baehaqiii-93890a326" target="_blank" rel="noopener">LinkedIn: Reza Baehaqiii</a></li>
+      </ul>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <p>© 2026 Achmad Reza Baehaqiii · Bogor, Indonesia · Built by hand, shipped with AI agents.</p>
+    <p class="footer-note">One page, no framework, no tracking. <a href="#top">Back to top ↑</a></p>
+  </div>
+</footer>
+
+<script src="script.js" defer></script>
+</body>
+</html>
